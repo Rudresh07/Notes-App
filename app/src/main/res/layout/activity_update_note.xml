@@ -44,9 +44,9 @@
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:id="@+id/EditNotesContent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@drawable/border"
-        android:minHeight="40dp"
+        android:minHeight="200dp"
         android:layout_margin="10dp"
         android:padding="5dp"
         android:hint="Enter your note here"

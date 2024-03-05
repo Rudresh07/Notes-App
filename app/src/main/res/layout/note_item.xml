@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginTop="8dp"
     app:cardCornerRadius="5dp"
-    app:cardElevation="8dp">
+    app:cardElevation="8dp"
+    android:backgroundTint="#F3EDF7">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +30,6 @@
                 android:layout_height="22dp"
                 android:layout_toLeftOf="@id/DeleteNote"
                 android:id="@+id/EditNote"
-
                 android:src="@drawable/edit"/>
 
             <ImageView
